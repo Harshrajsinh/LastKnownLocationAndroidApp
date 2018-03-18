@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SampleApplication</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_fourth">LOCATION FORM</string>
+
+    <!-- String Values for the Form-->
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="street_name">Street Name</string>
+    <string name="city_name">City Name</string>
+    <string name="state_name">State Name</string>
+    <string name="country_name">Country Name</string>
+    <string name="postal_code">Zip Code</string>
+    <string name="submit">Submit</string>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.harshraj.sampleapplication.FormActivity"
+    tools:showIn="@layout/activity_form">
+    <LinearLayout
+        android:padding="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <EditText
+        android:layout_width="@dimen/edit_text_width"
+        android:layout_height="wrap_content"
+        android:hint="@string/first_name"
+        android:id="@+id/FirstName"/>
+
+    <EditText
+        android:layout_width="@dimen/edit_text_width"
+        android:layout_height="wrap_content"
+        android:hint="@string/last_name"
+        android:id="@+id/LastName"/>
+
+        <EditText
+            android:layout_width="@dimen/edit_text_width"
+            android:layout_height="wrap_content"
+            android:hint="@string/street_name"
+            android:id="@+id/StreetName"/>
+        <EditText
+            android:layout_width="@dimen/edit_text_width"
+            android:layout_height="wrap_content"
+            android:text="@string/city_name"
+            android:id="@+id/CityName"/>
+        <EditText
+            android:layout_width="@dimen/edit_text_width"
+            android:layout_height="wrap_content"
+            android:text="@string/state_name"
+            android:id="@+id/StateName"/>
+
+        <EditText
+            android:layout_width="@dimen/edit_text_width"
+            android:layout_height="wrap_content"
+            android:text="@string/postal_code"
+            android:id="@+id/PostalCode"/>
+
+    <EditText
+        android:layout_width="@dimen/edit_text_width"
+        android:layout_height="wrap_content"
+        android:text="@string/country_name"
+        android:id="@+id/CountryName"/>
+
+        <Button
+            android:layout_width="@dimen/submit_button_width"
+            android:layout_height="wrap_content"
+            android:text="@string/submit"
+            android:id="@+id/SubmitButton"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
